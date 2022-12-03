@@ -14,7 +14,8 @@ https://sms.sunwaysms.com/shop
 
 سرویس مورد نظر خود را بصورت آنلاین خریداری نموده و یا باید با شرکت تماس حاصل نمایید و جهت خریداری و فعال سازی یک حساب کاربری اقدام نمایید . پس از فعال شدن حساب کاربری ، با داشتن نام کاربری ( UserName ) ، کلمه عبور ( Password ) ، یک یا چند شماره اختصاصی و اعتبار کافی پیام کوتاه شما میتوانید برای استفاده از وب سرویس به گام بعدی بروید .
 
- ذیل توضیح مختصر در مورد هریک از متدها آمده است:
+## ۳. توضیحات متدها
+ برای مشاهده جزئیات هر متد روی عنوان آن کلیک کنید:
  
 - **[متد SendArray برای ارسال پیامک](https://github.com/sunwaysms/url/blob/main/Methods/SendArray.md)**
 - **[متد SendArraySchedule برای ارسال پیامک در زمان خاص](https://github.com/sunwaysms/url/blob/main/Methods/SendArraySchedule.md)**
@@ -30,7 +31,7 @@ https://sms.sunwaysms.com/shop
 - **[متد GetCredit برای اطلاع از میزان اعتبار پیام کوتاه](https://github.com/sunwaysms/url/blob/main/Methods/GetCredit.md)**
 - **[متد GetUserInfo برای دریافت اطلاعات کاربر](https://github.com/sunwaysms/url/blob/main/Methods/GetUserInfo.md)**
 
-## ۳. نمونه کد و نمونه پروژه
+## ۴. نمونه کد و نمونه پروژه
 
 برای آشنایی هرچه بهتر نحوه کار هریک از متدهای فوق شما می توانید از نمونه کدهای زبان‌های مختلف، نوشته شده توسط تیم فنی در انتهای هر متد و همچنین نمونه پروژه‌های آماده در پوشه SampleProjects استفاده نمایید.
 
