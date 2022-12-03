@@ -1,5 +1,15 @@
 # راهنمای متد InsertNumberInNumberGroup
 
+- [راهنمای متد InsertNumberInNumberGroup](#راهنمای-متد-insertnumberinnumbergroup)
+  - [پارامترهای ورودی](#پارامترهای-ورودی)
+  - [خروجی Json](#خروجی-json)
+  - [نکات مهم در مورد کار با متد InsertNumberInNumberGroup](#نکات-مهم-در-مورد-کار-با-متد-insertnumberinnumbergroup)
+  - [نمونه کد](#نمونه-کد)
+    - [PHP](#php)
+    - [Java](#java)
+    - [C#](#c)
+    - [VB.net](#vbnet)
+
 برای افزودن یک یا چند شماره تلفن همراه به یک گروه خاص از دفتر تلفن سامانه مدیریت پیام کوتاه خود می توانید از این متد استفاده کنید . جهت به کارگیری آن آدرس URL زیر را فراخوانی نمایید:
 
 ```
