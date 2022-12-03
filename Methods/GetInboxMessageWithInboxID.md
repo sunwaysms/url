@@ -30,9 +30,8 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetInboxMessageWithInbo
 | UDH | سرآیند پیامک دریافتی |
 | Status | کد خطا (رجوع شود به بخش کدهای خطا) |
 
-> [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
-> 
-> [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
+- [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
+- [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
 
 ## نمونه کد
 

@@ -24,9 +24,8 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=InsertNumberInNumberGro
 | --- | --- |
 | String | آرایه ای که نشان دهنده موفقیت آمیز بودن ثبت و یا کدهای خطا می باشد |
 
-> [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
-> 
-> [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
+- [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
+- [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
 
 ## نکات مهم در مورد کار با متد InsertNumberInNumberGroup
 

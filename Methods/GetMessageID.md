@@ -22,9 +22,8 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetMessageID&username=$
 | --- | --- |
 | string | شناسه پیامک یا کد خطا |
 
-> [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
-> 
-> [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
+- [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
+- [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
 
 ## نکات مهم در مورد کار با متد GetMessageID
 

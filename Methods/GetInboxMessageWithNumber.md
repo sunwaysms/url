@@ -28,9 +28,8 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetInboxMessageWithNumb
 | ReceiveDate | تاریخ و ساعت دریافت پیامک |
 | UDH | سرآیند پیامک دریافتی |
 
-> [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
-> 
-> [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
+- [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
+- [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
 
 ## نمونه کد
 
