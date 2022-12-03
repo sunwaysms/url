@@ -10,16 +10,18 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetCredit&username=$Use
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+</table>
 
 ## خروجی متد
 
-| کلید | توضیح |
-| --- | --- |
-| String | باقیمانده اعتبار پیام کوتاه کاربر یا کد خطا |
+<table dir="rtl" align="center">
+<tr><th>کلید</th><th>توضیح</td></tr>
+<tr><td>String</td><td>باقیمانده اعتبار پیام کوتاه کاربر یا کد خطا</td></tr>
+</table>
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
