@@ -16,18 +16,18 @@ https://sms.sunwaysms.com/shop
 
  ذیل توضیح مختصر در مورد هریک از متدها آمده است:
  
-- متد SendArray برای ارسال پیامک
-- متد SendArraySchedule برای ارسال پیامک در زمان خاص
-- متد GetMessageID برای بدست آوردن MessageID با استفاده از CheckingMessageID
-- متد GetMessageStatus برای دریافت وضعیت پیامک های ارسال شده
-- متد SendNumberGroup برای ارسال به یک/چند گروه خاص از دفتر تلفن کاربر سامانه
-- متد SendNumberGroupSchedule برای ارسال به یک یا چند گروه خاص از دفتر تلفن کاربر سامانه در زمان خاص
-- متد GetNumberGroupData برای دریافت اطلاعات گروه های موجود در دفتر تلفن کاربر سامانه
-- متد InsertNumberInNumberGroup برای افزودن شماره تلفن همراه افراد به گروه خاص از دفتر تلفن کاربر سامانه
-- متد GetInboxMessage برای دریافت تعدادی از پیامک های ورودی در روز اخیر
-- متد GetInboxMessageWithNumber برای دریافت تعدادی از پیامک های ورودی به شماره خاص در روز اخیر
-- متد GetInboxMessageWithInboxID برای دریافت لیستی از پیامک های ورودی با ارسال شناسه اولین پیامک بازه دریافتی
-- متد GetCredit برای اطلاع از میزان اعتبار پیام کوتاه
-- متد GetUserInfo برای دریافت اطلاعات کاربر
+- **[متد SendArray برای ارسال پیامک](https://github.com/sunwaysms/url/blob/main/SendArray.md)**
+- **[متد SendArraySchedule برای ارسال پیامک در زمان خاص](https://github.com/sunwaysms/url/blob/main/SendArraySchedule.md)**
+- **[متد GetMessageID برای بدست آوردن MessageID با استفاده از CheckingMessageID](https://github.com/sunwaysms/url/blob/main/GetMessageID.md)**
+- **[متد GetMessageStatus برای دریافت وضعیت پیامک های ارسال شده](https://github.com/sunwaysms/url/blob/main/GetMessageStatus.md)**
+- **[متد SendNumberGroup برای ارسال به یک/چند گروه خاص از دفتر تلفن کاربر سامانه](https://github.com/sunwaysms/url/blob/main/SendNumberGroup.md)**
+- **[متد SendNumberGroupSchedule برای ارسال به یک یا چند گروه خاص از دفتر تلفن کاربر سامانه در زمان خاص](https://github.com/sunwaysms/url/blob/main/SendNumberGroupSchedule.md)**
+- **[متد GetNumberGroupData برای دریافت اطلاعات گروه های موجود در دفتر تلفن کاربر سامانه](https://github.com/sunwaysms/url/blob/main/GetNumberGroupData.md)**
+- **[متد InsertNumberInNumberGroup برای افزودن شماره تلفن همراه افراد به گروه خاص از دفتر تلفن کاربر سامانه](https://github.com/sunwaysms/url/blob/main/InsertNumberInNumberGroup.md)**
+- **[متد GetInboxMessage برای دریافت تعدادی از پیامک های ورودی در روز اخیر](https://github.com/sunwaysms/url/blob/main/GetInboxMessage.md)**
+- **[متد GetInboxMessageWithNumber برای دریافت تعدادی از پیامک های ورودی به شماره خاص در روز اخیر](https://github.com/sunwaysms/url/blob/main/GetInboxMessageWithNumber.md)**
+- **[متد GetInboxMessageWithInboxID برای دریافت لیستی از پیامک های ورودی با ارسال شناسه اولین پیامک بازه دریافتی](https://github.com/sunwaysms/url/blob/main/GetInboxMessageWithInboxID.md)**
+- **[متد GetCredit برای اطلاع از میزان اعتبار پیام کوتاه](https://github.com/sunwaysms/url/blob/main/GetCredit.md)**
+- **[متد GetUserInfo برای دریافت اطلاعات کاربر](https://github.com/sunwaysms/url/blob/main/GetUserInfo.md)**
 
 > توجه : برای آشنایی هرچه بهتر نحوه کار هریک از متدهای فوق شما می توانید از نمونه کد های نوشته شده توسط تیم فنی استفاده نمایید.
