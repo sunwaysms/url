@@ -10,25 +10,28 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=SendArraySchedule&usern
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
-| RecipientNumber | String | اجباری | شماره گیرنده ویا گیرندگان ( شماره تلفن همراه مقصد ) |
-| MessageBody | String | اجباری | متن پیامک |
-| SpecialNumber | String | اجباری | شماره اختصاصی ( شماره فرستنده پیامک ) |
-| ~~IsFlashMessage~~ | ~~Boolean~~ | ~~اجباری~~ | ~~آیا ارسال به صورت Flash انجام شود~~ |
-| Year | Integer | اجباری | سال مورد نظر برای ارسال زمانبندی شده پیامک |
-| Month | Integer | اجباری | ماه مورد نظر برای ارسال زمانبندی شده پیامک |
-| Day | Integer | اجباری | روز مورد نظر برای ارسال زمانبندی شده پیامک |
-| Hour | Integer | اجباری | ساعت مورد نظر برای ارسال زمانبندی شده پیامک |
-| Minute | Integer | اجباری | دقیقه مورد نظر برای ارسال زمانبندی شده پیامک |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+<tr><td>RecipientNumber</td><td>String</td><td>اجباری</td><td>شماره گیرنده ویا گیرندگان ( شماره تلفن همراه مقصد )</td></tr>
+<tr><td>MessageBody</td><td>String</td><td>اجباری</td><td>متن پیامک</td></tr>
+<tr><td>SpecialNumber</td><td>String</td><td>اجباری</td><td>شماره اختصاصی ( شماره فرستنده پیامک )</td></tr>
+<tr><td><s>IsFlashMessage</s></td><td><s>Boolean</s></td><td><s>اجباری</s></td><td><s>آیا ارسال به صورت Flash انجام شود</s></td></tr>
+<tr><td>Year</td><td>Integer</td><td>اجباری</td><td>سال مورد نظر برای ارسال زمانبندی شده پیامک</td></tr>
+<tr><td>Month</td><td>Integer</td><td>اجباری</td><td>ماه مورد نظر برای ارسال زمانبندی شده پیامک</td></tr>
+<tr><td>Day</td><td>Integer</td><td>اجباری</td><td>روز مورد نظر برای ارسال زمانبندی شده پیامک</td></tr>
+<tr><td>Hour</td><td>Integer</td><td>اجباری</td><td>ساعت مورد نظر برای ارسال زمانبندی شده پیامک</td></tr>
+<tr><td>Minute</td><td>Integer</td><td>اجباری</td><td>دقیقه مورد نظر برای ارسال زمانبندی شده پیامک</td></tr>
+</table>
 
 ## خروجی متد
 
-| نوع | توضیح |
-| --- | --- |
-| string | شناسه ارسال زمانبندی شده یا کد خطا|
+<table dir="rtl" align="center">
+<tr><th>نوع</th><th>توضیح</th></tr>
+<tr><td>string</td><td>شناسه ارسال زمانبندی شده یا کد خطا</td></tr>
+</table>
+
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
