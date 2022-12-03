@@ -16,7 +16,7 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=SendNumberGroup&usernam
 <tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
 <tr><td>NumberGroupID</td><td>String</td><td>اجباری</td><td>شناسه گروه دفتر تلفن</td></tr>
 <tr><td>MessageBody</td><td>String</td><td>اجباری</td><td>متن پیامک</td></tr>
-| SpecialNumber | String | اجباری | شماره اختصاصی |
+<tr><td>SpecialNumber</td><td>String</td><td>اجباری</td><td>شماره اختصاصی</td></tr>
 <tr><td><s>IsFlashMessage</s></td><td><s>Boolean</s></td><td><s>اجباری</s></td><td><s>آیا ارسال به صورت Flash انجام شود</s></td></tr>
 <tr><td>DontSendToRepeatedNumber</td><td>Boolean</td><td>اجباری</td><td>به شماره های تکراری ارسال نشود؟</td></tr>
 </table>
