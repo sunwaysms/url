@@ -10,23 +10,25 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetInboxMessageWithNumb
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
-| NumberOfMessage | Integer | اجباری | تعداد پیامک های درخواستی |
-| SpecialNumber | String | اجباری | شماره اختصاصی ( شماره دریافت کننده پیامک ) |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+<tr><td>NumberOfMessage</td><td>Integer</td><td>اجباری</td><td>تعداد پیامک های درخواستی</td></tr>
+<tr><td>SpecialNumber</td><td>String</td><td>اجباری</td><td>شماره اختصاصی ( شماره دریافت کننده پیامک )</td></tr>
+</table>
 
 ## خروجی Json
 
-| کلید | توضیح |
-| --- | --- |
-| InboxID | شناسه پیامک دریافتی |
-| SpecialNumber | شماره اختصاصی ( شماره ای پیامک را دریافت کرده است ) |
-| SenderNumber | شماره فرستنده ( شماره موبایل فرستنده پیامک ) |
-| MessageBody | متن پیامک |
-| ReceiveDate | تاریخ و ساعت دریافت پیامک |
-| UDH | سرآیند پیامک دریافتی |
+<table dir="rtl" align="center">
+<tr><th>کلید</th><th>توضیح</th></tr>
+<tr><td>InboxID</td><td>شناسه پیامک دریافتی</td></tr>
+<tr><td>SpecialNumber</td><td>شماره اختصاصی ( شماره ای پیامک را دریافت کرده است )</td></tr>
+<tr><td>SenderNumber</td><td>شماره فرستنده ( شماره موبایل فرستنده پیامک )</td></tr>
+<tr><td>MessageBody</td><td>متن پیامک</td></tr>
+<tr><td>ReceiveDate</td><td>تاریخ و ساعت دریافت پیامک</td></tr>
+<tr><td>UDH</td><td>سرآیند پیامک دریافتی</td></tr>
+</table>
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
