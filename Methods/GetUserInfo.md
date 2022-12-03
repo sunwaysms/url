@@ -10,26 +10,28 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetUserInfo&username=$U
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+</table>
 
 ## خروجی Json
 
-| کلید | توضیح |
-| --- | --- |
-| SMSCredit | میزان اعتبار کاربر به ریال |
-| TotalSendSMS | تعداد پیامک های ارسالی کاربر |
-| TotalReciveSMS | تعداد پیامک های دریافتی کاربر (شامل خوانده شده و خوانده نشده) |
-| totalIncomeSMSField | تعداد پیامک های دریافتی کاربر (شامل خوانده نشده ها) |
-| Notifications | عنوان اعلانات کاربر(به صورت اختصاصی برای کاربر ارسال شده است) |
-| NotificationsDisc | متن اعلانات کاربر (به صورت اختصاصی برای کاربر ارسال شده است) |
-| NotificationsDate | تاریخ ارسال اعلانات (به صورت اختصاصی برای کاربر ارسال شده است) |
-| PublicNotifications | عنوان اعلانات کاربر (به صورت سراسری برای تمامی کاربران ارسال شده است) |
-| PublicNotificationsDisc | متن اعلانات کاربر(به صورت سراسری برای تمامی کاربران ارسال شده است) |
-| PublicNotificationsDate | تاریخ ارسال اعلانات (به صورت سراسری برای تمامی کاربران ارسال شده است) |
-| Status | وضعیت کاربر (در بخش موارد حطا با ذکر شماره و توضیحات مربوطه آورده شده است) |
+<table dir="rtl" align="center">
+<tr><th>کلید</th><th>توضیح</th></tr>
+<tr><td>SMSCredit</td><td>میزان اعتبار کاربر به ریال</td></tr>
+<tr><td>TotalSendSMS</td><td>تعداد پیامک های ارسالی کاربر</td></tr>
+<tr><td>TotalReciveSMS</td><td>تعداد پیامک های دریافتی کاربر (شامل خوانده شده و خوانده نشده)</td></tr>
+<tr><td>totalIncomeSMSField</td><td>تعداد پیامک های دریافتی کاربر (شامل خوانده نشده ها)</td></tr>
+<tr><td>Notifications</td><td>عنوان اعلانات کاربر(به صورت اختصاصی برای کاربر ارسال شده است)</td></tr>
+<tr><td>NotificationsDisc</td><td>متن اعلانات کاربر (به صورت اختصاصی برای کاربر ارسال شده است)</td></tr>
+<tr><td>NotificationsDate</td><td>تاریخ ارسال اعلانات (به صورت اختصاصی برای کاربر ارسال شده است)</td></tr>
+<tr><td>PublicNotifications</td><td>عنوان اعلانات کاربر (به صورت سراسری برای تمامی کاربران ارسال شده است)</td></tr>
+<tr><td>PublicNotificationsDisc</td><td>متن اعلانات کاربر(به صورت سراسری برای تمامی کاربران ارسال شده است)</td></tr>
+<tr><td>PublicNotificationsDate</td><td>تاریخ ارسال اعلانات (به صورت سراسری برای تمامی کاربران ارسال شده است)</td></tr>
+<tr><td>Status</td><td>وضعیت کاربر (در بخش موارد حطا با ذکر شماره و توضیحات مربوطه آورده شده است)</td></tr>
+</table>
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
