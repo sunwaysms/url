@@ -4,8 +4,8 @@
     direction: rtl;
 }
 .markdown-body blockquote {
-    border-left: 0;
-    border-right: 0.25em solid var(--color-border-default);
+    border-left: 0!important;
+    border-right: 0.25em solid #d0d7de;
 }
 </style>
 - [راهنمای متد GetNumberGroupData](#راهنمای-متد-getnumbergroupdata)
