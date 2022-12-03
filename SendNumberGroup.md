@@ -20,7 +20,7 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=SendNumberGroup&usernam
 | ~~IsFlashMessage~~ | ~~Boolean~~ | ~~اجباری~~ | ~~آیا ارسال به صورت Flash انجام شود~~ |
 | DontSendToRepeatedNumber | Boolean | اجباری | به شماره های تکراری ارسال نشود؟ |
 
-## خروجی Json
+## خروجی متد
 
 | نوع | توضیح |
 | --- | --- |
