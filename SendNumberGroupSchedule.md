@@ -25,7 +25,7 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=SendNumberGroupSchedule
 | Hour | Integer | اجباری | ساعت مورد نظر برای ارسال زمانبندی شده پیامک |
 | Minute | Integer | اجباری | دقیقه مورد نظر برای ارسال زمانبندی شده پیامک |
 
-## خروجی Json
+## خروجی متد
 
 | نوع | توضیح |
 | --- | --- |
