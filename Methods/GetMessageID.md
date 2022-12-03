@@ -10,17 +10,19 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetMessageID&username=$
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
-| CheckingMessageID | String | شناسه پیامک کاربر |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+<tr><td>CheckingMessageID</td><td>String</td><td>اجباری</td><td>شناسه پیامک کاربر</td></tr>
+</table>
 
 ## خروجی متد
 
-| نوع | توضیح |
-| --- | --- |
-| string | شناسه پیامک یا کد خطا |
+<table dir="rtl" align="center">
+<tr><th>نوع</th><th>توضیح</th></tr>
+<tr><td>string</td><td>شناسه پیامک یا کد خطا</td></tr>
+</table>
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
