@@ -10,19 +10,21 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=InsertNumberInNumberGro
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
-| NumberGroupID | String | اجباری | شناسه گروه دفتر تلفن |
-| PersonNumber | String | اجباری | شماره افراد مورد نظر |
-| PersonName | String | اختیاری | نام افراد مورد نظر |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+<tr><td>NumberGroupID</td><td>String</td><td>اجباری</td><td>شناسه گروه دفتر تلفن</td></tr>
+<tr><td>PersonNumber</td><td>String</td><td>اجباری</td><td>شماره افراد مورد نظر</td></tr>
+<tr><td>PersonName</td><td>String</td><td>اختیاری</td><td>نام افراد مورد نظر</td></tr>
+</table>
 
 ## خروجی Json
 
-| نوع | توضیح |
-| --- | --- |
-| String | آرایه ای که نشان دهنده موفقیت آمیز بودن ثبت و یا کدهای خطا می باشد |
+<table dir="rtl" align="center">
+<tr><th>نوع</th><th>توضیح</th></tr>
+<tr><td>String</td><td>آرایه ای که نشان دهنده موفقیت آمیز بودن ثبت و یا کدهای خطا می باشد</td></tr>
+</table>
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
