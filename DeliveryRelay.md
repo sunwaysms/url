@@ -12,7 +12,7 @@ http://www.YourSite.com/YourPage.aspx?mid=$$MESSAGE_ID$$&cid=$$CHK_MSG_ID$$&st=$
 http://www.YourSite.com/YourPage.php?msgID=$$MESSAGE_ID$$&chkID=$$CHK_MSG_ID$$&status=$$STATUS$$
 ```
 
-توجه داشته باشید که ، $$MESSAGE_ID$$ ، $$CHK_MSG_ID$$ و $$STATUS$$ کلمات کلیدی هستند که در هنگام ارسال وضعیت به لینک کاربر به ترتیب با شناسه پیامک سمت سامانه ، شناسه پیامک کاربر و وضعیت پیامک پر می شوند.
+توجه داشته باشید که ، MESSAGE_ID ، CHK_MSG_ID و STATUS کلمات کلیدی هستند که در هنگام ارسال وضعیت به لینک کاربر به ترتیب با شناسه پیامک سمت سامانه ، شناسه پیامک کاربر و وضعیت پیامک پر می شوند.
 
 ## نکات مهم در مورد کار با DeliveryRelay
 
