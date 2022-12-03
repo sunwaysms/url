@@ -1,13 +1,5 @@
 # توضیح موارد خطا
-<style>
-.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
-    direction: rtl;
-}
-.markdown-body blockquote {
-    border-left: 0!important;
-    border-right: 0.25em solid #d0d7de;
-}
-</style>
+
 در تمام متدهایی که مقدار String برمیگردانند ممکن است در مقدار بازگشتی ، عددی کوچکتر از 1000 و بزرگتر از 50 قرار گیرد ، در این صورت مقدار بازگشتی متد یک کد خطا می باشد و باید با توجه به جدول ذیل خطای موجود را پیدا کرده و در صورت امکان مشکل موجود را برطرف نمایید .
 
 > توجه : خود کد 50 به معنی موفقیت آمیز بودن عملیات ( Successful ) می باشد و این مقدار فقط در مقدار بازگشتی از متد InsertNumberInNumberGroup قرار می گیرد .

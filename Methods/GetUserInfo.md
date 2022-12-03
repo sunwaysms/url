@@ -1,13 +1,5 @@
 # راهنمای متد GetUserInfo
-<style>
-.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
-    direction: rtl;
-}
-.markdown-body blockquote {
-    border-left: 0!important;
-    border-right: 0.25em solid #d0d7de;
-}
-</style>
+
 - [راهنمای متد GetUserInfo](#راهنمای-متد-getuserinfo)
   - [پارامترهای ورودی](#پارامترهای-ورودی)
   - [خروجی Json](#خروجی-json)
