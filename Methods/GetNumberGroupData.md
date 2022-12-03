@@ -10,20 +10,22 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetNumberGroupData&user
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+</table>
 
 ## خروجی Json
 
-| کلید | توضیح |
-| --- | --- |
-| NumberGroupID | شناسه گروه شماره ها دفتر تلفن |
-| NumberCount | تعداد شماره های موجود در گروه |
-| FarsiName | نام فارسی گروه |
-| EnglishName | نام انگلیسی گروه |
-| Priority | اولویت تعیین شده برای گروه توسط کاربر |
+<table dir="rtl" align="center">
+<tr><th>کلید</th><th>توضیح</th></tr>
+<tr><td>NumberGroupID</td><td>شناسه گروه شماره ها دفتر تلفن</td></tr>
+<tr><td>NumberCount</td><td>تعداد شماره های موجود در گروه</td></tr>
+<tr><td>FarsiName</td><td>نام فارسی گروه</td></tr>
+<tr><td>EnglishName</td><td>نام انگلیسی گروه</td></tr>
+<tr><td>Priority</td><td>اولویت تعیین شده برای گروه توسط کاربر</td></tr>
+</table>
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
