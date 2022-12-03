@@ -1,0 +1,16 @@
+﻿body{font-family:Tahoma;font-size:11px;color:#444;text-align:right;direction:rtl;background-color:#AAA;}
+input[type=text],textarea{width:380px;}
+button{text-decoration:none;color:#0000CC;padding:5px;border:1px solid #0000CC;background:#FFF;display:inline-block; font-family: Tahoma;}
+button:hover{background:#FAFAFA;}
+.dForm{width:500px;margin:10px auto;padding:10px;background-color:#F6F6F6;border:1px solid #777;}
+.dTitle{padding:5px;margin-bottom:10px;font-size:12px;}
+.dRight,.dTitle{background-color:#333333;color:#FFF;border-right:2px solid #000;border-top:2px solid #000;line-height:180%;}
+.dRight,.dLeft{float:right;}
+.dRight > div,.dLeft > div{height:35px;}
+.dRight > div.m,.dLeft > div.m{height:67px;}
+.dRight > div.c,.dLeft > div.c{text-align:center;}
+.dRight > div.e,.dLeft > div.e{height:25px;}
+.dRight{width:93px;padding-left:7px;text-align:left;}
+.dLeft{margin-right:10px;width:385px;}
+.clear{clear:both;}
+.small{font-size:9px;}
