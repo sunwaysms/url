@@ -10,21 +10,23 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=SendNumberGroup&usernam
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
-| NumberGroupID | String | اجباری | شناسه گروه دفتر تلفن |
-| MessageBody | String | اجباری | متن پیامک |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+<tr><td>NumberGroupID</td><td>String</td><td>اجباری</td><td>شناسه گروه دفتر تلفن</td></tr>
+<tr><td>MessageBody</td><td>String</td><td>اجباری</td><td>متن پیامک</td></tr>
 | SpecialNumber | String | اجباری | شماره اختصاصی |
-| ~~IsFlashMessage~~ | ~~Boolean~~ | ~~اجباری~~ | ~~آیا ارسال به صورت Flash انجام شود~~ |
-| DontSendToRepeatedNumber | Boolean | اجباری | به شماره های تکراری ارسال نشود؟ |
+<tr><td><s>IsFlashMessage</s></td><td><s>Boolean</s></td><td><s>اجباری</s></td><td><s>آیا ارسال به صورت Flash انجام شود</s></td></tr>
+<tr><td>DontSendToRepeatedNumber</td><td>Boolean</td><td>اجباری</td><td>به شماره های تکراری ارسال نشود؟</td></tr>
+</table>
 
 ## خروجی متد
 
-| نوع | توضیح |
-| --- | --- |
-| String | کد رهگیری ارسال یا کد خطا |
+<table dir="rtl" align="center">
+<tr><th>نوع</th><th>توضیح</th></tr>
+<tr><td>string</td><td>کد رهگیری ارسال یا کد خطا</td></tr>
+</table>
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
