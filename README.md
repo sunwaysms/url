@@ -1,5 +1,13 @@
 # راهنمای استفاده از سرویس HTTP-URL سان‌وی
-
+<style>
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+    direction: rtl;
+}
+.markdown-body blockquote {
+    border-left: 0;
+    border-right: 0.25em solid var(--color-border-default);
+}
+</style>
 - [راهنمای استفاده از سرویس HTTP-URL سان‌وی](#راهنمای-استفاده-از-سرویس-http-url-سانوی)
   - [۱. نگاه كلی](#۱-نگاه-كلی)
   - [۲. روش کار با وب سرویس](#۲-روش-کار-با-وب-سرویس)

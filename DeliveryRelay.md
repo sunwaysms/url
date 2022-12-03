@@ -1,5 +1,13 @@
 # ارسال وضعیت پیامک های ارسالی به لینک کاربر (DeliveryRelay)
-
+<style>
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+    direction: rtl;
+}
+.markdown-body blockquote {
+    border-left: 0;
+    border-right: 0.25em solid var(--color-border-default);
+}
+</style>
 با استفاده از DeliveryRelay شما می توانید وضعیت پیامک های ارسال شده توسط متدهای مختلف را در لحظه تغییر کردن دریافت کنید. روش کار به این صورت می باشد که ، وارد سامانه مدیریت پیام کوتاه شده و از بخش "تنظیمات وب سرویس" بر روی "مدیریت لینک ها" کلیک نمایید ، سپس در این بخش می توانید یک لینک از نوع "DeliveryRelay" برای برنامه خود وارد کنید مانند زیر:
 
 ```

@@ -1,5 +1,13 @@
 # تعاریف کلمات کلیدی متدها (اندیس ها)
-
+<style>
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+    direction: rtl;
+}
+.markdown-body blockquote {
+    border-left: 0;
+    border-right: 0.25em solid var(--color-border-default);
+}
+</style>
 <table dir="rtl">
 <tr>
     <th>نام کاربری (UserName )</th>

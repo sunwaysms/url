@@ -1,5 +1,13 @@
 # راهنمای متد SendNumberGroup
-
+<style>
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+    direction: rtl;
+}
+.markdown-body blockquote {
+    border-left: 0;
+    border-right: 0.25em solid var(--color-border-default);
+}
+</style>
 - [راهنمای متد SendNumberGroup](#راهنمای-متد-sendnumbergroup)
   - [پارامترهای ورودی](#پارامترهای-ورودی)
   - [خروجی متد](#خروجی-متد)
