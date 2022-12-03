@@ -10,25 +10,27 @@ https://sms.sunwaysms.com/smsws/HttpService.ashx?service=GetInboxMessageWithInbo
 
 ## پارامترهای ورودی
 
-| نام | نوع | اجباری / اختیاری | توضیح |
-| --- | --- | --- | --- |
-| UserName | String | اجباری | نام کاربری |
-| Password | String | اجباری | کلمه عبور |
-| NumberOfMessage | Integer | اجباری | تعداد پیامک های درخواستی |
-| InboxID | Integer | اجباری | شناسه پیامک |
-| IsReaded | Boolean | اجباری | آیا تمامی پیامک ها نمایش داده شود یا فقط خوانده نشده ها |
+<table dir="rtl" align="center">
+<tr><th>نام</th><th>نوع</th><th>اجباری / اختیاری</th><th>توضیح</th></tr>
+<tr><td>UserName</td><td>String</td><td>اجباری</td><td>نام کاربری</td></tr>
+<tr><td>Password</td><td>String</td><td>اجباری</td><td>کلمه عبور</td></tr>
+<tr><td>NumberOfMessage</td><td>Integer</td><td>اجباری</td><td>تعداد پیامک های درخواستی</td></tr>
+<tr><td>InboxID</td><td>Integer</td><td>اجباری</td><td>شناسه پیامک</td></tr>
+<tr><td>IsReaded</td><td>Boolean</td><td>اجباری</td><td>آیا تمامی پیامک ها نمایش داده شود یا فقط خوانده نشده ها</td></tr>
+</table>
 
 ## خروجی Json
 
-| کلید | توضیح |
-| --- | --- |
-| InboxID | شناسه پیامک دریافتی |
-| SpecialNumber | شماره اختصاصی ( شماره ای پیامک را دریافت کرده است ) |
-| SenderNumber | شماره فرستنده ( شماره موبایل فرستنده پیامک ) |
-| MessageBody | متن پیامک |
-| ReceiveDate | تاریخ و ساعت دریافت پیامک |
-| UDH | سرآیند پیامک دریافتی |
-| Status | کد خطا (رجوع شود به بخش کدهای خطا) |
+<table dir="rtl" align="center">
+<tr><th>کلید</th><th>توضیح</th></tr>
+<tr><td>InboxID</td><td>شناسه پیامک دریافتی</td></tr>
+<tr><td>SpecialNumber</td><td>شماره اختصاصی ( شماره ای پیامک را دریافت کرده است )</td></tr>
+<tr><td>SenderNumber</td><td>شماره فرستنده ( شماره موبایل فرستنده پیامک )</td></tr>
+<tr><td>MessageBody</td><td>متن پیامک</td></tr>
+<tr><td>ReceiveDate</td><td>تاریخ و ساعت دریافت پیامک</td></tr>
+<tr><td>UDH</td><td>سرآیند پیامک دریافتی</td></tr>
+<tr><td>Status</td><td>کد خطا (رجوع شود به بخش کدهای خطا)</td></tr>
+</table>
 
 - [ توضیح کامل هر یک از کلمات کلیدی](https://github.com/sunwaysms/url/blob/main/Parameters.md)
 - [مشاهده لیست کدهای خطا و توضیحات مربوط به هر کدام](https://github.com/sunwaysms/url/blob/main/Errors.md)
