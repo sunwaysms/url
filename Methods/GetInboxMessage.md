@@ -78,14 +78,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -105,7 +105,7 @@ public class UrlAPI {
     }
 
 
-    public wp-content ResultInbox GetInboxMessageWithInboxID(String UserName,
+    public static ResultInbox GetInboxMessageWithInboxID(String UserName,
             String Password, int NumberOfMessage, int InboxID, Boolean IsReaded)
             throws Exception {
         String result = getUrl("service=GetInboxMessageWithInboxID&UserName="
@@ -122,7 +122,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -134,7 +134,7 @@ public wp-content class API {
     /// <param name="InboxID">int</param>
     /// <param name="IsReaded">True/False</param>
     /// <returns>ResultInbox</returns>
-    public wp-content ResultInbox GetInboxMessageWithInboxID(string UserName, string Password, int NumberOfMessage, int InboxID, bool IsReaded) {
+    public static ResultInbox GetInboxMessageWithInboxID(string UserName, string Password, int NumberOfMessage, int InboxID, bool IsReaded) {
         WebRequest request = WebRequest.Create(URL + "service=GetInboxMessageWithInboxID&UserName=" + UserName + "&Password=" + Password + "&NumberOfMessage=" + NumberOfMessage + "&InboxID=" + InboxID + "&IsReaded=" + (IsReaded ? "true" : "false"));
         request.Method = "GET";
         WebResponse response = request.GetResponse();

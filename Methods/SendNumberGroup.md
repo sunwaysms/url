@@ -89,14 +89,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -115,7 +115,7 @@ public class UrlAPI {
         return temp;
     }
 
-    public wp-content long SendNumberGroup(String UserName, String Password,
+    public static long SendNumberGroup(String UserName, String Password,
             long[] NumberGroupID, String Message, String SpecialNumber,
             Boolean IsFlash, Boolean DontSendToRepeatedNumber) throws Exception {
         String numberGroupID = "";
@@ -139,7 +139,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -153,7 +153,7 @@ public wp-content class API {
     /// <param name="IsFlash">True/False</param>
     /// <param name="DontSendToRepeatedNumber">True/False</param>
     /// <returns>SendID for Send To Group</returns>
-    public wp-content long SendNumberGroup(string UserName, string Password, long[] NumberGroupID, string Message, string SpecialNumber, bool IsFlash, bool DontSendToRepeatedNumber) {
+    public static long SendNumberGroup(string UserName, string Password, long[] NumberGroupID, string Message, string SpecialNumber, bool IsFlash, bool DontSendToRepeatedNumber) {
         string numberGroupID = "";
         foreach (var item in NumberGroupID) {
             numberGroupID += item + ",";

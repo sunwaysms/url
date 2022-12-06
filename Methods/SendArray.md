@@ -96,14 +96,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -122,7 +122,7 @@ public class UrlAPI {
         return temp;
     }
 
-    public wp-content long[] SendArray(String UserName, String Password,
+    public static long[] SendArray(String UserName, String Password,
             String[] RecipientNumber, String Message, String SpecialNumber,
             Boolean IsFlash, long[] CheckingMessageID) throws Exception {
         String recipientNumber = "", checkingMessageID = "";
@@ -149,7 +149,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -163,7 +163,7 @@ public wp-content class API {
     /// <param name="IsFlash">True/False</param>
     /// <param name="CheckingMessageID">Your local ID for message</param>
     /// <returns>MessageID for each SMS</returns>
-    public wp-content long[] SendArray(string UserName, string Password, string[] RecipientNumber, string Message, string SpecialNumber, bool IsFlash, long[] CheckingMessageID) {
+    public static long[] SendArray(string UserName, string Password, string[] RecipientNumber, string Message, string SpecialNumber, bool IsFlash, long[] CheckingMessageID) {
         string recipientNumber = "", checkingMessageID = "";
         foreach (var item in RecipientNumber) {
             recipientNumber += item + ",";

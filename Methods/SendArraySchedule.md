@@ -97,14 +97,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -123,7 +123,7 @@ public class UrlAPI {
         return temp;
     }
 
-    public wp-content long SendArraySchedule(String UserName, String Password,
+    public static long SendArraySchedule(String UserName, String Password,
             String[] RecipientNumber, String Message, String SpecialNumber,
             Boolean IsFlash, int Year, int Month, int Day, int Hour, int Minute)
             throws Exception {
@@ -150,7 +150,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -168,7 +168,7 @@ public wp-content class API {
     /// <param name="Hour">int</param>
     /// <param name="Minute">int</param>
     /// <returns>MessageID</returns>
-    public wp-content long SendArraySchedule(string UserName, string Password, string[] RecipientNumber, string Message, string SpecialNumber, bool IsFlash, int Year, int Month, int Day, int Hour, int Minute) {
+    public static long SendArraySchedule(string UserName, string Password, string[] RecipientNumber, string Message, string SpecialNumber, bool IsFlash, int Year, int Month, int Day, int Hour, int Minute) {
         string recipientNumber = "";
         foreach (var item in RecipientNumber) {
             recipientNumber += item + ",";

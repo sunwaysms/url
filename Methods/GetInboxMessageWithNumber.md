@@ -78,14 +78,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -104,7 +104,7 @@ public class UrlAPI {
         return temp;
     }
 
-    public wp-content InboxItem[] GetInboxMessageWithNumber(String UserName,
+    public static InboxItem[] GetInboxMessageWithNumber(String UserName,
             String Password, int NumberOfMessage, String SpecialNumber)
             throws Exception {
         String result = getUrl("service=GetInboxMessageWithNumber&UserName="
@@ -120,7 +120,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -131,7 +131,7 @@ public wp-content class API {
     /// <param name="NumberOfMessage">Int Number of message</param>
     /// <param name="SpecialNumber">Your Special number ,send sms from this number</param>
     /// <returns>InboxItem</returns>
-    public wp-content InboxItem[] GetInboxMessageWithNumber(string UserName, string Password, int NumberOfMessage, string SpecialNumber) {
+    public static InboxItem[] GetInboxMessageWithNumber(string UserName, string Password, int NumberOfMessage, string SpecialNumber) {
         WebRequest request = WebRequest.Create(URL + "service=GetInboxMessageWithNumber&UserName=" + UserName + "&Password=" + Password + "&NumberOfMessage=" + NumberOfMessage + "&From=" + SpecialNumber);
         request.Method = "GET";
         WebResponse response = request.GetResponse();

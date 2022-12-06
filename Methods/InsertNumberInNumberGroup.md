@@ -92,14 +92,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -118,7 +118,7 @@ public class UrlAPI {
         return temp;
     }
 
-    public wp-content long[] InsertNumberInNumberGroup(String UserName,
+    public static long[] InsertNumberInNumberGroup(String UserName,
             String Password, long NumberGroupID, String[] PersonNumber,
             String[] PersonName) throws Exception {
         String person = "", number = "";
@@ -144,7 +144,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -156,7 +156,7 @@ public wp-content class API {
     /// <param name="PersonNumber">Array of String </param>
     /// <param name="PersonName">Array of String </param>
     /// <returns>Array of long </returns>
-    public wp-content long[] InsertNumberInNumberGroup(string UserName, string Password, long NumberGroupID, string[] PersonNumber, string[] PersonName) {
+    public static long[] InsertNumberInNumberGroup(string UserName, string Password, long NumberGroupID, string[] PersonNumber, string[] PersonName) {
         string person = "", number = "";
         foreach (var item in PersonNumber) {
             number += item + ",";

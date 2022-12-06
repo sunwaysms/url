@@ -81,14 +81,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -107,7 +107,7 @@ public class UrlAPI {
         return temp;
     }
 
-    public wp-content ProfileInfo GetUserInfo(String UserName, String Password)
+    public static ProfileInfo GetUserInfo(String UserName, String Password)
             throws Exception {
         String result = getUrl("service=GetUserInfo&UserName="
                 + encode(UserName) + "&Password=" + encode(Password));
@@ -120,7 +120,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -129,7 +129,7 @@ public wp-content class API {
     /// <param name="UserName">String</param>
     /// <param name="Password">String</param>
     /// <returns>ProfileInfo</returns>
-    public wp-content ProfileInfo GetUserInfo(string UserName, string Password) {
+    public static ProfileInfo GetUserInfo(string UserName, string Password) {
         WebRequest request = WebRequest.Create(URL + "service=GetUserInfo&UserName=" + UserName + "&Password=" + Password);
         request.Method = "GET";
         WebResponse response = request.GetResponse();

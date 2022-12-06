@@ -102,14 +102,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -128,7 +128,7 @@ public class UrlAPI {
         return temp;
     }
 
-    public wp-content long[] GetMessageStatus(String UserName, String Password,
+    public static long[] GetMessageStatus(String UserName, String Password,
             long[] MessageID) throws Exception {
         String messageID = "";
         for (long item : MessageID) {
@@ -146,7 +146,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -156,7 +156,7 @@ public wp-content class API {
     /// <param name="Password">String</param>
     /// <param name="MessageID">long[] MessageIDs</param>
     /// <returns></returns>
-    public wp-content long[] GetMessageStatus(string UserName, string Password, long[] MessageID) {
+    public static long[] GetMessageStatus(string UserName, string Password, long[] MessageID) {
         string messageID = "";
         foreach (var item in MessageID) {
             messageID += item + ",";

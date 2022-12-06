@@ -94,14 +94,14 @@ import com.google.gson.*;
 
 public class UrlAPI {
 
-    wp-content String link = "https://sms.sunwaysms.com/smsws/HttpService?";
-    wp-content Gson gson = new Gson();
+    static String link = "https://sms.sunwaysms.com/smsws/HttpService?";
+    static Gson gson = new Gson();
 
-    public wp-content void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 
-    public wp-content String getUrl(String Url) throws Exception {
+    public static String getUrl(String Url) throws Exception {
         String temp = "";
         try {
             URL url = new URL(link + Url);
@@ -120,7 +120,7 @@ public class UrlAPI {
         return temp;
     }
 
-    public wp-content long SendNumberGroupSchedule(String UserName,
+    public static long SendNumberGroupSchedule(String UserName,
             String Password, long[] NumberGroupID, String Message,
             String SpecialNumber, Boolean IsFlash,
             Boolean DontSendToRepeatedNumber, int Year, int Month, int Day,
@@ -150,7 +150,7 @@ public class UrlAPI {
 ### C#
 
 ```C#
-public wp-content class API {
+public static class API {
     const string URL = "https://sms.sunwaysms.com/smsws/HttpService?";
 
     /// <summary>
@@ -169,7 +169,7 @@ public wp-content class API {
     /// <param name="Hour">int</param>
     /// <param name="Minute">int</param>
     /// <returns>SendID for Send To Group</returns>
-    public wp-content long SendNumberGroupSchedule(string UserName, string Password, long[] NumberGroupID, string Message, string SpecialNumber, bool IsFlash, bool DontSendToRepeatedNumber, int Year, int Month, int Day, int Hour, int Minute) {
+    public static long SendNumberGroupSchedule(string UserName, string Password, long[] NumberGroupID, string Message, string SpecialNumber, bool IsFlash, bool DontSendToRepeatedNumber, int Year, int Month, int Day, int Hour, int Minute) {
         string numberGroupID = "";
         foreach (var item in NumberGroupID) {
             numberGroupID += item + ",";
